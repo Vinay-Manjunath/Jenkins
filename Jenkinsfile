@@ -5,21 +5,21 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "Checkout the source code from the Git repository"
-                //git 'https://github.com/yourusername/yourrepository.git'
+                git 'https://github.com/Vinay-Manjunath/Jenkins.git'
             }
         }
 
         stage('Build') {
             steps {
                 echo "Execute build commands or scripts"
-                //sh 'your-build-command-or-script.sh'
+                //sh './Prog1.py'
             }
         }
 
         stage('Test') {
             steps {
                 echo "Execute test commands or scripts"
-                //sh 'your-test-command-or-script.sh'
+                //sh './Test.py'
             }
         }
 
