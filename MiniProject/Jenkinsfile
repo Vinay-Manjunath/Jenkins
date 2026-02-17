@@ -4,9 +4,9 @@ pipeline {
 
   environment {
     DOCKER_IMAGE_NAME = 'calculator'
-    DOCKERHUB_REPO    = 'iiitb'                 // DockerHub namespace
+    DOCKERHUB_REPO    = 'vinayksm86'                 // DockerHub namespace
     DOCKERHUB_CRED    = 'DockerHubCred'         // credentialsId (username/password)
-    GIT_REPO_URL      = 'https://github.com/BThangaraju/Jenkins.git'
+    GIT_REPO_URL      = 'https://github.com/Vinay-Manjunath/Jenkins.git'
     GIT_BRANCH        = 'master'
   }
 
